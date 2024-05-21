@@ -1,0 +1,31 @@
+MainBox:
+    orientation: "vertical"
+    MainGrid:
+
+    Button:
+        size_hint: 1, .20
+        text: "Reset"
+        on_press: root.reset_counters()
+
+
+
+<MainGrid>:
+    cols: 2
+    Label:
+        text: root.text_score_a
+    Label:
+        text: root.text_score_b
+    Button:
+        text: "Point"
+        on_press: root.add_points_a()
+    Button:
+        text: "Point"
+        on_press: root.add_points_b()
+
+    Button:
+        text: "-"
+        on_press: root.sub_points_a()
+    Button:
+        text: "-"
+        on_press: root.sub_points_b()
+
