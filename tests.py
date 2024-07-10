@@ -35,3 +35,4 @@ def reset_counters():
     global counter_a, counter_b
     counter_a = 0
     counter_b = 0
+

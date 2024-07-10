@@ -5,7 +5,7 @@ from kivy.uix.button import Button
 from kivy.uix.stacklayout import StackLayout
 
 
-class MyStack(StackLayout): # Used to Add multiple buttons
+class MyStack(StackLayout):     # Used to Add multiple buttons
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         for i in range(1, 101):

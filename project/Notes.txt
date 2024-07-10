@@ -1,0 +1,36 @@
+This is the way to add a canvas and draw stuffs in it:
+
+# Set variables in kv files:
+
+#: set mw dp(150)
+#: set mh dp(300)
+
+<CanvasOne>:
+    canvas:
+        color:
+            rgba: # the last parameter is the transparency
+        Rectangle:
+            pos: x, y   # left down corner, We can use the self.center_x or self.center_y
+            size: width, height
+        Ellipse:
+            pos: x, y   # left down corner, (imagine there is a square around the ellipse)
+            size: width, height
+        Line:
+            points: (x1, y1, x2, y2, ...) # We can use self.width and self.height
+            width: 3 # Define the thickness of the line
+
+
+# I CAN ALSO DRAW POLYGONS WITH NO FILL BY USING LINE
+
+        line:
+            circle: (center_x, center_y, radius)
+            width: Thickness
+
+        line:
+            Ellipse: (x, y, radius_x, radius_y)
+
+        line:
+            Rectangle: (x, y, w, h) # x, y ---> Position & w, h ---> Size
+
+
+
