@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78c6a6b1-d689-4b77-b789-2651240aa24f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/project/Notes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/board.kv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/board.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/course.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/course.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/photo-6.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mynotes.py" beforeDir="false" afterPath="$PROJECT_DIR$/mykivy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tennis.kv" beforeDir="false" afterPath="$PROJECT_DIR$/tennis.kv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tennis.py" beforeDir="false" afterPath="$PROJECT_DIR$/tennis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/board.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/board.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,17 +39,23 @@
   "keyToString": {
     "Python.board.executor": "Run",
     "Python.claseespañol.executor": "Run",
+    "Python.course.executor": "Run",
     "Python.mykivy.executor": "Run",
     "Python.mymain.executor": "Run",
     "Python.mynotes.executor": "Run",
     "Python.tennis.executor": "Run",
     "Python.tests.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/pansh/PycharmProjects/kivy projects"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pansh\PycharmProjects\kivy projects\project" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

@@ -52,9 +52,10 @@ class BouncingBall(Widget):
 
         if (self.my_center_x + self.ball_size < self.screen_x and self.limit == 0
                 or self.my_center_y + self.ball_size < self.screen_y and self.limit == 0):
-
-            self.my_center_x += self.vx
-            self.my_center_y += self.vy
+            self.my_center_x += random.randint(1, 15)
+            self.my_center_y += random.randint(1, 15)
+            # self.my_center_x += self.vx
+            # self.my_center_y += self.vy
             self.ball.pos = (self.my_center_x, self.my_center_y)
 
             if (self.my_center_x + self.ball_size >= self.screen_x
@@ -63,8 +64,10 @@ class BouncingBall(Widget):
 
         elif (self.my_center_x > 0 and self.limit == 1
                 or self.my_center_y < self.screen_y and self.limit == 1):
-            self.my_center_x -= self.vx
-            self.my_center_y -= self.vy
+            self.my_center_x -= random.randint(1, 15)
+            self.my_center_y -= random.randint(1, 15)
+            # self.my_center_x -= self.vx
+            # self.my_center_y -= self.vy
             self.ball.pos = (self.my_center_x, self.my_center_y)
 
             if self.my_center_x <= 0 or self.my_center_y <= 0:
